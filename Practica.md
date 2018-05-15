@@ -2,7 +2,7 @@ Part 1. Escriu les sentències SQL per tal d’obtenir els que se’ns demana. A
 
 1.	Obtenir el nom i l’adreça dels hotels de 4 estrelles.
 Sin Index:
-(https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Capturas_sin_index/1.png)
+[https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Capturas_sin_index/1.png]
 Amb Index
 2.	Obtenir el nom dels clients (Nom i cognom) que el seu cognom comenci per vocal (sense tenir en compte els accents).
 3.	Quina és la reserva_id que té més nits. Indica també la quantitat de nits.
