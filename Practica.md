@@ -32,7 +32,7 @@ Amb Index:
 6.	Quantitat d’hotels de 4 estrelles de la població de Barcelona.
 
 Sense Index:
-![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Capturas_sin_index/.png)
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Capturas_sin_index/6.png)
 Amb Index:
 
 7.	De l’any 2015 volem obtenir els seu histograma de reserves. És a dir volem saber el número de reserves de cadascun dels mesos. Una reserva pertany a un mes si la alguna nit d’aquella reserva cau a dins de l’any 2015.
