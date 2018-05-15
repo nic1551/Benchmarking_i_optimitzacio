@@ -224,33 +224,43 @@ El 7 = 0.00.00.108
 
 
 el 9.1 :
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/9.1.png)
 
 el 9.2 : 
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/9.2.png)
 
 el 13.1 :
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/13.1.png)
 
 el 13.2 : 
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/13.2.png)
 
 el 17.1 :
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/17.1.png)
 
 el 17.2 : 
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/17.2.png)
 
 el 21.1 : 
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/21.1.png)
 
 el 21.2 :
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/21.2.png)
 
 el 7.1: 
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/7.1.png)
 
 el 7.2 : 
+
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/7.2.png)
 
 ◦	Quina modificació hem de fer perquè la consulta no passi per Cache? (reescriu una consulta amb els canvis)
@@ -259,12 +269,15 @@ La comanda es SELECT SQL_NO_CACHE.
 
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/no_cache.png)
 
+
 Aqui: (https://dev.mysql.com/doc/refman/5.5/en/query-cache-in-select.html)
-•	Activa la Query Cache (ON DEMAND)
+
+•Activa la Query Cache (ON DEMAND)
 
 La comanda es SELECT SQL_CACHE
 
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/sql_cache.png)
+
 Podem fer referència al enllaç anterior de dev.mysql.com
 
 ◦	Posa un exemple d'execució sota demanda.
@@ -273,7 +286,12 @@ Podem fer referència al enllaç anterior de dev.mysql.com
 
 ◦	Quina modificació hem de fer perquè la consulta passi per Cache?(reescriu la consulta amb els canvis)
 
+
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/sql_cache.png)
+
+
 •	Un cop acabats els punts anteriors mostra quin ha estat el teu CacheHitRatio? Com has obtingut els valors de cache_hits i cache_misses?
+
 •	Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.
 
 
