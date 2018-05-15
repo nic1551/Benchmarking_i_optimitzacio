@@ -181,17 +181,19 @@ Amb Index:
 # Explicació de Indexs
 
 CLIENTS: Aqui he agafat els 3 camps que feien servir mes en la taul: Camp del nom, camp de cognom i camp de data de naixement.
-i1
-i2
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Indexes/c1.png)
+
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Indexes/c2.png)
 
 HOTELS: Aqui només he agafat el poblacio_id per ser més ràpid aleshores de buscar els poblacions diferents.
-i1
-i2
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Indexes/h1.png)
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Indexes/h2.png)
 
 HABITACIONS:No fa falta perque un hotel no té moltes habitacions. Si tenia més de 300 habitacions podem començar a pensar sobre indexes
 
 RESERVES: Aqui he agafat els camps hab_id, data_inici, data_fi i client_id, perquè son les mes buscades.
-
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Indexes/r1.png)
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Indexes/r2.png)
 
 PAISOS: Com que el Base de Datos té poc països no fa falta crear un index.
 
