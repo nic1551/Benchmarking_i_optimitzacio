@@ -203,12 +203,29 @@ POBLACIONS: Passa el mateix que països, com que hi ha pocs de moment no fa falt
 # Part 2 – Query Cache (5 punts)
 Escull 5 sentències SQL de la Part 1 (intenta que els temps d’execució siguin significatius)
 •	Quins temps d'execució t'han sortit per cada consulta?
+El 9 = 0.00.000.102
+El 13 = 0.00.000.079
+El 17 = 0.00.000.090
+El 21 = 0.00.000.088
+El 7 = 0.00.00.108
 •	Activa la Query Cache (ON)
+
 ◦	Reexecuta les consultes anteriors 2 vegades seguides. Ha millorat el temps d'execució?
 ◦	Quina modificació hem de fer perquè la consulta no passi per Cache? (reescriu una consulta amb els canvis)
+
+La comanda es SELECT SQL_NO_CACHE.
+
+Aqui: (https://dev.mysql.com/doc/refman/5.5/en/query-cache-in-select.html)
 •	Activa la Query Cache (ON DEMAND)
+
+La comanda es SELECT SQL_CACHE
+Podem fer referència al enllaç anterior de dev.mysql.com
+
 ◦	Posa un exemple d'execució sota demanda.
+
+
 ◦	Quina modificació hem de fer perquè la consulta passi per Cache?(reescriu la consulta amb els canvis)
+
 •	Un cop acabats els punts anteriors mostra quin ha estat el teu CacheHitRatio? Com has obtingut els valors de cache_hits i cache_misses?
 •	Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.
 
