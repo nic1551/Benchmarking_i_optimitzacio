@@ -1,4 +1,4 @@
-Part 1. Escriu les sentències SQL per tal d’obtenir els que se’ns demana. A més a més si creus que la sentència es pot millorar amb la incorporació d’un índex i/o modificació de l’esquema (sense alterar-ne el comportament),etc... Afegeix la sentència DDL i l’output de EXPLAIN mostrant la millora (EXPLAIN sense índex i EXPLAIN amb índex). Si creus que la consulta no es pot millorar mitjançant índexs justifica el perquè. ( 2 punts )
+# Part 1. Escriu les sentències SQL per tal d’obtenir els que se’ns demana. A més a més si creus que la sentència es pot millorar amb la incorporació d’un índex i/o modificació de l’esquema (sense alterar-ne el comportament),etc... Afegeix la sentència DDL i l’output de EXPLAIN mostrant la millora (EXPLAIN sense índex i EXPLAIN amb índex). Si creus que la consulta no es pot millorar mitjançant índexs justifica el perquè. ( 2 punts )
 
 1.	Obtenir el nom i l’adreça dels hotels de 4 estrelles.
 
@@ -198,3 +198,35 @@ RESERVES: Aqui he agafat els camps hab_id, data_inici, data_fi i client_id, perq
 PAISOS: Com que el Base de Datos té poc països no fa falta crear un index.
 
 POBLACIONS: Passa el mateix que països, com que hi ha pocs de moment no fa falta. Si ampliarem i posem poblacions de tot el món si necesitarem un index.
+
+
+# Part 2 – Query Cache (5 punts)
+Escull 5 sentències SQL de la Part 1 (intenta que els temps d’execució siguin significatius)
+•	Quins temps d'execució t'han sortit per cada consulta?
+•	Activa la Query Cache (ON)
+◦	Reexecuta les consultes anteriors 2 vegades seguides. Ha millorat el temps d'execució?
+◦	Quina modificació hem de fer perquè la consulta no passi per Cache? (reescriu una consulta amb els canvis)
+•	Activa la Query Cache (ON DEMAND)
+◦	Posa un exemple d'execució sota demanda.
+◦	Quina modificació hem de fer perquè la consulta passi per Cache?(reescriu la consulta amb els canvis)
+•	Un cop acabats els punts anteriors mostra quin ha estat el teu CacheHitRatio? Com has obtingut els valors de cache_hits i cache_misses?
+•	Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.
+
+
+# Part 3 – Benchmarking (2 punts)
+Mitjançant la eina Sysbench prepara un joc de proves mitjançant les sentències SQL anteriors o d’altres que creguis que puguin anar bé per realitzar les proves.
+Documenta la instal·lació de l'eina, la creació dels scripts de prova i l’execució de les proves.
+•	Test 1
+◦	Treu tots els índexs de la Part 1 i desactiva la CACHE i realitza el benchmark
+•	Test 2
+◦	Afegeix els índexs de  la part 1
+•	Test 3
+◦	Activa la CACHE (també fes que les consultes passin per aquesta CACHE)
+•	Realitza una comparativa mostrant els resultats obtinguts dels tres benchmarks.
+•	En el tercer cas indica quin ha estat el valor de CacheHitRatio.
+
+
+
+
+
+
