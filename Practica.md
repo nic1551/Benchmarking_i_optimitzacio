@@ -179,3 +179,20 @@ Amb Index:
 
 
 # Explicació de Indexs
+
+CLIENTS: Aqui he agafat els 3 camps que feien servir mes en la taul: Camp del nom, camp de cognom i camp de data de naixement.
+i1
+i2
+
+HOTELS: Aqui només he agafat el poblacio_id per ser més ràpid aleshores de buscar els poblacions diferents.
+i1
+i2
+
+HABITACIONS:No fa falta perque un hotel no té moltes habitacions. Si tenia més de 300 habitacions podem començar a pensar sobre indexes
+
+RESERVES: Aqui he agafat els camps hab_id, data_inici, data_fi i client_id, perquè son les mes buscades.
+
+
+PAISOS: Com que el Base de Datos té poc països no fa falta crear un index.
+
+POBLACIONS: Passa el mateix que països, com que hi ha pocs de moment no fa falta. Si ampliarem i posem poblacions de tot el món si necesitarem un index.
