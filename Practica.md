@@ -176,3 +176,6 @@ Sense Index:
 
 Amb Index:
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Capturas_con_index/22.png)
+
+
+# Explicació de Indexs
