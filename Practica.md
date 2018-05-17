@@ -296,9 +296,12 @@ Podem fer referència al enllaç anterior de dev.mysql.com
 
 •	Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.
 
-Aquí: (https://stackoverflow.com/questions/5231678/clear-mysql-query-cache-without-restarting-server)
+Guia: (https://stackoverflow.com/questions/5231678/clear-mysql-query-cache-without-restarting-server)
 
+FLUSH:
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/FLUSH_QUERY_CACHE.png)
+
+RESET:
 ![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/CacheQuery/reset_query_cache.png)
 # Part 3 – Benchmarking (2 punts)
 Mitjançant la eina Sysbench prepara un joc de proves mitjançant les sentències SQL anteriors o d’altres que creguis que puguin anar bé per realitzar les proves.
