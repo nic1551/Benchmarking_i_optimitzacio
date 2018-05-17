@@ -309,14 +309,25 @@ Mitjançant la eina Sysbench prepara un joc de proves mitjançant les sentèncie
 Documenta la instal·lació de l'eina, la creació dels scripts de prova i l’execució de les proves.
 Instalació:
 Primer descarguem els REMIS.
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Benchmarking/Install1.png).
 
 Despres descarguem la segona paquet que conté els EPELREMOS.
 
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Benchmarking/Install2.png).
+
 Finalment amb el YUM INSTALL WGET:.
 
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Benchmarking/sysbenche.png).
 
 ###	Test 1
-Treu tots els índexs de la Part 1 i desactiva la CACHE i realitza el benchmark
+Treu tots els índexs de la Part 1 i desactiva la CACHE i realitza el benchmark.
+
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Benchmarking/remove_index.png).
+
+![alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Benchmarking/deactivate_cache_query.png).
+
+ª[alt index](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Benchmarking/test1_1.png).
+
 ###	Test 2
 ◦	Afegeix els índexs de  la part 1
 ###	Test 3
