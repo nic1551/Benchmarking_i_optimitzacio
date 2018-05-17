@@ -292,8 +292,11 @@ Podem fer referència al enllaç anterior de dev.mysql.com
 
 •	Un cop acabats els punts anteriors mostra quin ha estat el teu CacheHitRatio? Com has obtingut els valors de cache_hits i cache_misses?
 
+
+
 •	Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.
 
+Aquí: (https://stackoverflow.com/questions/5231678/clear-mysql-query-cache-without-restarting-server)
 
 # Part 3 – Benchmarking (2 punts)
 Mitjançant la eina Sysbench prepara un joc de proves mitjançant les sentències SQL anteriors o d’altres que creguis que puguin anar bé per realitzar les proves.
