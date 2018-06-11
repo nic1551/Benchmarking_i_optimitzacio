@@ -1,6 +1,6 @@
 Part 3 – Benchmarking (2 punts)
 
-### Nota. Els següents captures estan fet en un Ubuntu Server.
+##Nota. Els següents captures estan fet en un Ubuntu Server.
 
 Mitjançant la eina Sysbench prepara un joc de proves mitjançant les sentències SQL anteriors o d’altres que creguis que puguin anar bé per realitzar les proves.
 
