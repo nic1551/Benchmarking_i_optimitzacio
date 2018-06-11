@@ -84,12 +84,16 @@ Cache Inserts
 
 Qcache_hits / (Qcache_hits + Qcache_inserts)
 
-Simplefiquem: 
+Simplifiquem: 
 
 579 / (579 + 756848)
 
 Encara mes: 
 
 579 / 757427
+
+Resposta:
+
+![finale](https://github.com/nic1551/Benchmarking_i_optimitzacio/blob/master/Extrabench/finale.png).
 
 
